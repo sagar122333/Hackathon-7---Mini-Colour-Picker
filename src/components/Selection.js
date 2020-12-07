@@ -7,7 +7,7 @@ function Selection(props) {
         <div className="fix-box" onClick={()=>{
             props.applyColor((nextBackground)=>{
                     setBackground({
-                    backgroundColor:nextBackground})})
+                    backgroundColor:nextBackground.nextBackground})})
         }}
             style={background}>
             <h2 className="subheading">Selection</h2>
